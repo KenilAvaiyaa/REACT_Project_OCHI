@@ -33,20 +33,35 @@ const Navbar = () => {
           ></path>
         </svg>
       </div>
-      <div className="link w-1/2 flex justify-between text-base font-[350] font-['nev'] items-center">
-        <div className="">
-        <div className="services flex justify-between items-center gap-8">
-         
-          <div className=" relative h-6 overflow-hidden ">
-          <a href="#" className="">Services</a>
-          <a href="#" className="absolute inset-0 transition-transform duration-300 transform translate-y-full group-hover:translate-y-0">Services</a>
+      <div className="link w-1/2 flex justify-between text-base font-[350] font-['nev'] items-center gap-9">
+        <div className="services w-2/4 flex justify-between items-center">
+          <div className=" group w-1/4 relative h-6 overflow-hidden">
+            <a href="#" className=" absolute transition-transform duration-300 transform translate-y-0 group-hover:-translate-y-full">Services</a>
+            <a href="#" className="absolute inset-0 transition-transform duration-300 transform translate-y-full group-hover:translate-y-0">Services</a>
           </div>
-          <a href="">Our work</a>
-          <a href="">About us</a>
-          <a href="">Insights</a>
+          <div className=" group w-1/4 relative h-6 overflow-hidden">
+            <a href="#" className=" absolute transition-transform duration-300 transform translate-y-0 group-hover:-translate-y-full">Our work</a>
+            <a href="#" className="absolute inset-0 transition-transform duration-300 transform translate-y-full group-hover:translate-y-0">Our work</a>
+          </div>
+          <div className=" group w-1/4 relative h-6 overflow-hidden">
+            <a href="#" className=" absolute transition-transform duration-300 transform translate-y-0 group-hover:-translate-y-full">About us</a>
+            <a href="#" className="absolute inset-0 transition-transform duration-300 transform translate-y-full group-hover:translate-y-0">About us</a>
+          </div>
+          <div className=" group w-1/4 relative h-6 overflow-hidden">
+            <a href="#" className=" absolute transition-transform duration-300 transform translate-y-0 group-hover:-translate-y-full">Insights</a>
+            <a href="#" className="absolute inset-0 transition-transform duration-300 transform translate-y-full group-hover:translate-y-0">Insights</a>
+          </div>
+          
         </div>
+
+        
+
+        <div className="contact w-1/4">
+          <div className=" group w-full  relative h-6 overflow-hidden">
+            <a href="#" className=" absolute  pl-20 transition-transform duration-300 transform translate-y-0 group-hover:-translate-y-full">Contact us</a>
+            <a href="#" className="absolute  pl-20 inset-0 transition-transform duration-300 transform translate-y-full group-hover:translate-y-0">Contact us</a>
+          </div>
         </div>
-        <div className="contact">Contact us</div>
       </div>
     </div>
   );
