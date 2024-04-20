@@ -31,18 +31,22 @@ const LandingPage = () => {
           <h4 className="">For public and private companies</h4>
           <h4 className="">From the first pitch to IPO</h4>
           <div className="start flex gap-2">
-            <h4 className=" uppercase px-4 py-2 border-[1px] font-[300] text-sm border-main rounded-full">
+            <h4 className=" textinbutton uppercase px-4 py-2 border-[2px] font-[300] text-sm border-main rounded-full">
               start the project
             </h4>
-            <div className=" w-10 h-10 rounded-full border-[1px] flex justify-center items-center ">
+            <div className=" textinbutton w-10 h-10 rounded-full border-[2px] flex justify-center items-center ">
               <GoArrowUpRight />
             </div>
           </div>
         </div>
-        <div className="scrollD absolute left-[47%] mt-14 tracking-tight text-gray-500">
+        <motion.div
+        initial={{ y: 0 , opacity:0}}
+        animate={{ y: "100%",opacity:"100%" }}
+        transition={{ ease: [0.76, 0, 0.24, 1], repeat: Infinity, duration: 1, delay:3 }} 
+        className="scrollD absolute left-[47%] text-sm opacity-50 mt-14 tracking-tight text-gray-500">
           {/* /* 40 to 20 */}
           Scroll down
-        </div>
+        </motion.div>
       </div>
     </div>
   );

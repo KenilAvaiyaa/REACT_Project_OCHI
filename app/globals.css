@@ -11,3 +11,11 @@
   font-family: head;
   src: url(../public/Font/FoundersGrotesk-Semibold.ttf);
 }
+
+
+.start:hover .textinbutton {
+  background: #000;
+  color: white;
+  transition: cubic-bezier(0.76, 0, 0.24, 1) 0.3s ;
+  scale: 1.05;
+}  
