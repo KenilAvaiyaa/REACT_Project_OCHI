@@ -16,7 +16,7 @@ const page = () => {
   
   const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div className=' w-full min-h-scree text-main-text bg-body'>
+    <div className=' w-full min-h-scree text-main-text text-[#212121] bg-body overflow-hidden'>
       <Navbar />
       <LandingPage />
       <Marquee />

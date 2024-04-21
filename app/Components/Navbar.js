@@ -2,11 +2,11 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className=" fixed backdrop-blur-sm z-[999] w-full px-10 py-5 flex">
+    <div className=" fixed backdrop-blur-sm z-[999] w-full px-5 py-3 sm:px-10 sm:py-5 flex">
       <div className="logo w-1/2">
         <svg
-          width="72"
-          height="30"
+          width="100"
+          height="40"
           viewBox="0 0 72 30"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@ const Navbar = () => {
         </svg>
       </div>
       <div className="link w-1/2 flex justify-between text-base font-[350] font-['nev'] items-center gap-9">
-        <div className="services w-2/4 flex justify-between items-center">
+        <div className="services hidden sm:flex  w-2/4  justify-between items-center">
           <div className=" group w-[4.2vw] relative h-6 overflow-hidden ">
             <a
               href="#"
