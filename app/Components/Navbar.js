@@ -35,7 +35,7 @@ const Navbar = () => {
       </div>
       <div className="link w-1/2 flex justify-between text-base font-[350] font-['nev'] items-center gap-9">
         <div className="services w-2/4 flex justify-between items-center">
-          <div className=" group w-1/4 relative h-6 overflow-hidden">
+          <div className=" group w-[4.2vw] relative h-6 overflow-hidden ">
             <a
               href="#"
               className=" absolute transition-transform duration-300 transform translate-y-0 group-hover:-translate-y-full"
@@ -48,8 +48,9 @@ const Navbar = () => {
             >
               Services
             </a>
+            <span className="absolute bottom-0 left-0 h-[1px] w-0 rounded-full bg-black duration-300 ease-in-out group-hover:w-full"></span>
           </div>
-          <div className=" group w-1/4 relative h-6 overflow-hidden">
+          <div className=" group w-[4.5vw] relative h-6 overflow-hidden">
             <a
               href="#"
               className=" absolute transition-transform duration-300 transform translate-y-0 group-hover:-translate-y-full"
@@ -62,8 +63,9 @@ const Navbar = () => {
             >
               Our work
             </a>
+            <span className="absolute bottom-0 left-0 h-[1px] w-0 rounded-full bg-black duration-300 ease-in-out group-hover:w-full"></span>
           </div>
-          <div className=" group w-1/4 relative h-6 overflow-hidden">
+          <div className=" group w-[4.3vw] relative h-6 overflow-hidden">
             <a
               href="#"
               className=" absolute transition-transform duration-300 transform translate-y-0 group-hover:-translate-y-full"
@@ -76,8 +78,9 @@ const Navbar = () => {
             >
               About us
             </a>
+            <span className="absolute bottom-0 left-0 h-[1px] w-0 rounded-full bg-black duration-300 ease-in-out group-hover:w-full"></span>
           </div>
-          <div className=" group w-1/4 relative h-6 overflow-hidden">
+          <div className=" group w-[3.8vw] relative h-6 overflow-hidden">
             <a
               href="#"
               className=" absolute transition-transform duration-300 transform translate-y-0 group-hover:-translate-y-full"
@@ -90,23 +93,25 @@ const Navbar = () => {
             >
               Insights
             </a>
+            <span className="absolute bottom-0 left-0 h-[1px] w-0 rounded-full bg-black duration-300 ease-in-out group-hover:w-full"></span>
           </div>
         </div>
 
         <div className="contact w-1/4">
-          <div className=" group w-full  relative h-6 overflow-hidden">
+          <div className=" group w-full pl-20 relative h-6 overflow-hidden">
             <a
               href="#"
-              className=" absolute  pl-20 transition-transform duration-300 transform translate-y-0 group-hover:-translate-y-full"
+              className=" absolute   transition-transform duration-300 transform translate-y-0 group-hover:-translate-y-full"
             >
               Contact us
             </a>
             <a
               href="#"
-              className="absolute  pl-20 inset-0 transition-transform duration-300 transform translate-y-full group-hover:translate-y-0"
+              className="absolute pl-20 inset-0 transition-transform duration-300 transform translate-y-full group-hover:translate-y-0"
             >
               Contact us
             </a>
+            <span className="absolute bottom-2.5 h-[0.15em] w-0 bg-gray-600 opacity-90 duration-300 ease-out group-hover:w-20"></span>
           </div>
         </div>
       </div>
