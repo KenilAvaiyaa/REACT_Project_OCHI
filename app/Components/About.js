@@ -3,11 +3,13 @@ import React from "react";
 const About = () => {
   return (
     <div data-scroll data-scroll-speed="-.2" className=" w-full bg-[#CDEA67] py-20 rounded-3xl ">
-      <p className=" text-6xl leading-[3.7vw] pl-10 pr-[10vw] font-[nev]">
+      <div className=" text-6xl leading-[3.755rem] pl-10 pr-[10vw] font-[nev]">
         Ochi is a strategic partner for fast-grow­ing tech businesses that need
-        to raise funds, sell prod­ucts, ex­plain com­plex ideas, and hire great
+        to <a className="" href="">raise funds,</a>
+        sell prod­ucts, ex­plain com­plex ideas, and hire great
         peo­ple.
-      </p>
+      </div>
+      
       <div className=" w-full border-t-2 mt-14 px-10 py-5 border-[#a3b26e]">
         <div className=" w-full expect flex ">
           <h1 className=" w-1/2 font-[nev] font-[200] text-lg">
@@ -30,10 +32,19 @@ const About = () => {
                 <h1 className=" w-1/2 font-[nev] font-[200] text-lg mb-4">
                   S:
                 </h1>
-                <a href="#">Instagram</a>
-                <a href="#">Behance</a>
-                <a href="#">acebook</a>
-                <a href="#">Linkedin</a>
+                <a className="relative w-fit group" href="#">Instagram
+                  <span className="absolute bottom-0 left-0 h-[1px] w-0 rounded-full bg-black duration-300 ease-in-out group-hover:w-full"></span>
+                </a>
+                
+                <a className="relative w-fit group" href="#">Behance
+                <span className="absolute bottom-0 left-0 h-[1px] w-0 rounded-full bg-black duration-300 ease-in-out group-hover:w-full"></span>
+                </a>
+                <a className="relative w-fit group" href="#">Facebook
+                  <span className="absolute bottom-0 left-0 h-[1px] w-0 rounded-full bg-black duration-300 ease-in-out group-hover:w-full"></span>
+                </a>
+                <a className="relative w-fit group" href="#">Linkedin
+                  <span className="absolute bottom-0 left-0 h-[1px] w-0 rounded-full bg-black duration-300 ease-in-out group-hover:w-full"></span>
+                </a>
               </h1>
             </div>
           </div>
