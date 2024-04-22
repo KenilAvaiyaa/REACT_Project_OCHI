@@ -160,7 +160,7 @@ const Clientreview = () => {
         </div>
       </div>
 
-      <div className="ochitag relative w-full min-h-[150vh] sm:h-[100vh]">
+      <div className="ochitag relative w-full h-[150vh] sm:h-[100vh]">
         <div className="ochiinfo absolute top-10 sm:top-[20%] w-full sm:h-[45vh] px-10 flex flex-col sm:flex-row gap-3">
           <div className=" w-full h-[45vh] sm:w-2/4 relative rounded-lg bg-[#004D43]  overflow-hidden ">
             <img
