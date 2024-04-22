@@ -15,14 +15,14 @@ const Projects = () => {
 
   return (
     <div data-scroll data-scroll-speed="0.05" className=" w-full relative py-10 rounded-tl-3xl rounded-tr-3xl">
-      <div className=" w-full mt-8 border-b-[1px] pb-10 border-zinc-400  px-10">
-        <h1 className="text-6xl font-['nev'] tracking-tight">
+      <div className=" w-full mt-2 sm:mt-8 border-b-[1px] pb-5 sm:pb-10 border-zinc-400  px-10">
+        <h1 className=" text-[27px] sm:text-6xl font-['nev'] tracking-tight">
           Featured projects
         </h1>
       </div>
       <div className="projectinfo w-full flex flex-col ">
-        <div className="cards w-full mt-8 flex">
-          <div className="card w-1/2 px-10 min-h-[80vh]">
+        <div className="cards w-full mt-8 flex flex-col gap-4 sm:gap-0 sm:flex-row">
+          <div className="card w-full sm:w-1/2 px-10 min-h-[40vh] sm:min-h-[80vh]">
             <div className="cardtext w-full h-[5vh] py-3  flex justify-start items-center gap-3">
               <div className="dote w-3 h-3 bg-black rounded-full"></div>
               <h4 className=" font-['nev'] text-sm uppercase">FYDE</h4>
@@ -30,7 +30,7 @@ const Projects = () => {
             <motion.div
               onHoverStart={() => Hover(0)}
               onHoverEnd={() => Endhover(0)}
-              className="cardimgcont  w-full h-[70vh] relative rounded-2xl "
+              className="cardimgcont  w-full h-[30vh] sm:h-[70vh] relative rounded-2xl "
             >
               <h1 className="text uppercase absolute flex overflow-hidden left-full -translate-x-[35%] top-1/2  -translate-y-1/2 z-[999] text-[#CDEA67]  font-['head'] text-9xl">
                 {/* <h1 className=" uppercase absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] z-[999] text-[#CDEA67] font-['head'] text-9xl"> */}
@@ -73,7 +73,7 @@ const Projects = () => {
               </h4>
             </div>
           </div>
-          <div className="card w-1/2 px-10 min-h-[80vh]">
+          <div className="card w-full sm:w-1/2 px-10 min-h-[40vh] sm:min-h-[80vh]">
             <div className="cardtext w-full h-[5vh] py-3 flex justify-start items-center gap-3">
               <div className="dote w-3 h-3 bg-black rounded-full"></div>
               <h4 className=" font-['nev'] text-sm uppercase">vise</h4>
@@ -81,7 +81,7 @@ const Projects = () => {
             <motion.div
               onHoverStart={() => Hover(1)}
               onHoverEnd={() => Endhover(1)}
-              className="cardimgcont  w-full h-[70vh] relative rounded-2xl "
+              className="cardimgcont  w-full h-[30vh] sm:h-[70vh] relative rounded-2xl "
             >
               <h1 className=" uppercase absolute flex overflow-hidden right-full translate-x-[25%] top-1/2 -translate-y-1/2 z-[999] text-[#CDEA67]  font-['head'] text-9xl">
                 {/* <h1 className=" uppercase absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] z-[999] hidden text-[#CDEA67] font-['head'] text-9xl"> */}
@@ -119,8 +119,8 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="cards w-full mt-8 flex">
-          <div className="card w-1/2 px-10 min-h-[80vh]">
+        <div className="cards w-full mt-8 flex flex-col gap-4 sm:gap-0 sm:flex-row">
+          <div className="card w-full sm:w-1/2 px-10 min-h-[40] sm:min-h-[80vh]">
             <div className="cardtext w-full h-[5vh] py-3  flex justify-start items-center gap-3">
               <div className="dote w-3 h-3 bg-black rounded-full"></div>
               <h4 className=" font-['nev'] text-sm uppercase">trawa</h4>
@@ -128,7 +128,7 @@ const Projects = () => {
             <motion.div
               onHoverStart={() => Hover(2)}
               onHoverEnd={() => Endhover(2)}
-              className="cardimgcont  w-full h-[70vh] relative rounded-2xl "
+              className="cardimgcont  w-full h-[30vh] sm:h-[70vh] relative rounded-2xl "
             >
               <h1 className=" uppercase absolute flex overflow-hidden left-full -translate-x-[35%] top-1/2 -translate-y-1/2  z-[999] text-[#CDEA67]  font-['head'] text-9xl">
                 {/* <h1 className=" uppercase absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] z-[999] text-[#CDEA67] font-['head'] text-9xl"> */}
@@ -171,7 +171,7 @@ const Projects = () => {
               </h4>
             </div>
           </div>
-          <div className="card w-1/2 px-10 min-h-[80vh]">
+          <div className="card w-full sm:w-1/2 px-10 min-h-[40vh] sm:min-h-[80vh]">
             <div className="cardtext w-full h-[5vh] py-3 flex justify-start items-center gap-3">
               <div className="dote w-3 h-3 bg-black rounded-full"></div>
               <h4 className=" font-['nev'] text-sm uppercase">PREMIUM BLEND</h4>
@@ -179,7 +179,7 @@ const Projects = () => {
             <motion.div
               onHoverStart={() => Hover(3)}
               onHoverEnd={() => Endhover(3)}
-              className="cardimgcont  w-full h-[70vh] relative rounded-2xl "
+              className="cardimgcont  w-full h-[30vh] sm:h-[70vh] relative rounded-2xl "
             >
               <h1 className=" uppercase absolute flex overflow-hidden right-full translate-x-[45%] top-1/2 -translate-y-1/2 z-[999] whitespace-nowrap text-[#CDEA67] font-['head'] text-9xl">
                 {/* fyde */}
@@ -218,9 +218,9 @@ const Projects = () => {
         </div>
       </div>
       <div className="w-full flex justify-center items-center mt-20">
-        <button className=" absolute flex gap-8 items-center px-10 py-4 bg-zinc-900 text-white mt-5 rounded-full uppercase ">
+        <button className=" absolute flex gap-4 text-sm sm:text-base sm:gap-8 items-center px-5 py-2 sm:px-10  sm:py-4 bg-zinc-900 text-white sm:mt-5 rounded-full uppercase ">
           read more
-          <div className=" w-2 h-2 bg-white rounded-full"></div>
+          <div className=" w-1.5 sm:w-2 h-1.5 sm:h-2 bg-white rounded-full"></div>
         </button>
       </div>
     </div>

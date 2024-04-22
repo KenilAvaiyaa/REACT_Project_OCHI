@@ -12,9 +12,9 @@ const LandingPage = () => {
         <div className="masker w-fit flex justify-start items-center gap-1">
           <motion.div
             initial={{ width: 0 }}
-            animate={{ width: "16vw" }}
+            animate={{ width: "13vw" }}
             transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
-            className=" w-[16vw] h-[10vw] mt-[7px] sm:w-[9vw] sm:h-[5.2vw] sm:mt-[12px] bg-green-500 bg-[url('https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg')] bg-cover bg-center  rounded-md"
+            className=" w-[16vw] h-[10vw] mt-[7px] sm:w-[9vw] sm:h-[6vw] sm:mt-[12px] bg-green-500 bg-[url('https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg')] bg-cover bg-center  rounded-md"
           ></motion.div>
           <h1 className=" uppercase text-[16vw] leading-[12vw] sm:leading-[6.5vw] sm:text-[8.8vw]">
             eye-opening
@@ -31,7 +31,7 @@ const LandingPage = () => {
           <h4 className=" mt-5 sm:m-0">For public and private companies</h4>
           <h4 className="mt-5 sm:m-0">From the first pitch to IPO</h4>
           <div className="start mt-5 sm:m-0 flex gap-1">
-            <h4 className=" textinbutton uppercase px-3 py-1  flex justify-center items-center border-zinc-700  sm:px-4 sm:py-2 border-[2px] font-[300] text-sm sm:border-main rounded-full">
+            <h4 className=" textinbutton uppercase px-3 py-1  flex justify-center items-center border-zinc-700  sm:px-4 sm:py-2 border-[2px] font-[300] text-sm sm:border-[#e5e7eb] rounded-full">
               start the project
             </h4>
             <div className=" textinbutton hidden w-10 h-10 rounded-full border-[2px] sm:flex justify-center items-center ">
